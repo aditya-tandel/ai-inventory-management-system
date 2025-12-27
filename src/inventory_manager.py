@@ -1,4 +1,4 @@
-def check_stock_level(quantity):
+def classify_stock_level(quantity):
     if quantity < 30:
         return "Low Stock"
     elif quantity < 70:
